@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>João Guimarães</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <link rel="icon" type="image/png" href="resume.png">
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      font-family: 'Poppins', sans-serif;
+      background: #0a0a0a;
+      color: white;
+      overflow: hidden;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 10px;
+        width: 100%;
+        text-align: center;
+        color: #888;
+        font-size: 0.9rem;
+        z-index: 1;
+      }
+
+    #particles-js {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
+
+    nav {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      box-sizing: border-box;
+    }
+
+    nav .logo {
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+
+    nav .logo span {
+      color: #4f46e5;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      margin: 0;
+      padding: 0;
+      flex-wrap: wrap;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+      font-size: 0.95rem;
+    }
+
+    nav ul li a:hover {
+      color: #4f46e5;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: center;
+      padding: 0 1rem;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .content h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      font-weight: 300;
+    }
+
+    .content h2 {
+      font-size: 2.5rem;
+      color: #4f46e5;
+      margin-bottom: 1rem;
+      font-weight: 700;
+    }
+
+    .content p {
+      color: #ccc;
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+      padding: 0 1rem;
+    }
+
+    .socials {
+      display: flex;
+      justify-content: center;
+      gap: 1.2rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+    }
+    
+    .socials a iconify-icon {
+      color: white;
+    }
+
+    .socials a {
+      color: white;
+      border: 2px solid #4f46e5;
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+
+    .socials a:hover {
+      background-color: #4f46e5;
+      color: black;
+    }
+
+    .cv-button {
+      background-color: #4f46e5;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 999px;
+      color: white;
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .cv-button:hover {
+      background-color: #3730a3;
+    }
+
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 0.5rem;
+      }
+
+      .content h1 {
+        font-size: 1.5rem;
+      }
+
+      .content h2 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="particles-js"></div>
+
+  <nav>
+    <div class="logo">João <span>Guimarães</span></div>
+  </nav>
+
+  <div class="content">
+    <h1>Hi, I'm</h1>
+    <h2>João Guimarães</h2>
+    <p>
+      Computer Engineering student with interests in software development, artificial intelligence, cybersecurity, and game development.
+      Passionate about technology, music, and martial arts, I'm open to projects and internship opportunities where I can learn and contribute.
+    </p>
+
+    <div class="socials">
+      <a href="https://github.com/jepegui" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/joão-guimarães-22b40a361" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://jepegui.itch.io" target="_blank" aria-label="itch.io">
+        <iconify-icon icon="simple-icons:itchdotio" width="22" height="22"></iconify-icon>
+      </a>
+      <a href="mailto:joaompmguimaraes@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="tel:+351915301500"><i class="fas fa-phone"></i></a>
+    </div>
+
+    <a href="https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/jo%C3%A3o+pedro-melo+pimentel+machado+guimar%C3%A3es/beeed8f8-73ed-455d-bb8f-41922d98ddac?view=html" target="_blank">
+      <button class="cv-button">My CV</button>
+    </a>
+  </div>
+  <footer>
+    © João Guimarães | 2025
+  </footer>
+  <!-- Particles.js -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      particles: {
+        number: { value: 100, density: { enable: true, value_area: 800 } },
+        color: { value: "#ffffff" },
+        shape: { type: "circle" },
+        opacity: { value: 0.5 },
+        size: { value: 2.5, random: true },
+        line_linked: {
+          enable: true,
+          distance: 120,
+          color: "#ffffff",
+          opacity: 0.4,
+          width: 1
+        },
+        move: {
+          enable: true,
+          speed: 2,
+          direction: "none",
+          out_mode: "out"
+        }
+      },
+      interactivity: {
+        detect_on: "canvas",
+        events: {
+          onhover: { enable: true, mode: "repulse" },
+          onclick: { enable: true, mode: "push" },
+          resize: true
+        },
+        modes: {
+          repulse: { distance: 100, duration: 0.4 },
+          push: { particles_nb: 4 }
+        }
+      },
+      retina_detect: true
+    });
+  </script>
+</body>
+</html>
